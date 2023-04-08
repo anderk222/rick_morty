@@ -26,7 +26,7 @@ const SearchCharacter = () => {
         </div>
     );
 
-    function onSearch() { setSearchParams({ name }) };
+    function onSearch() { setSearchParams({ name }, { replace : true }) };
 
 }
 
