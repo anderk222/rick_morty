@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sha {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.138);
+
+}
+
+
+.card_animated {
+  transition: all 500ms;
+}
+
+.card_animated:hover {
+  transform: scale(1.06, 1.06);
+}
+
+.acordeon_svg {
+  --tw-rotate: -90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
